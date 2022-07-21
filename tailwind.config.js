@@ -23,8 +23,16 @@ module.exports = {
         600: '#dc2626',
         700: '#b91c1c',
         900: '#7f1d1d',
-      }
-    }
+      },
+      grayTheme: {
+        800: '#AEAEAE',
+        900: '#6A6A6A'
+      },
+      background: '#262626'
+    },
+
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
