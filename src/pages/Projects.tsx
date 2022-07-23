@@ -9,7 +9,7 @@ export function Projects() {
         desc="Esse Todo-list consiste em um desafio proposto no primeiro módulo do curso ignite da Rocketseat, para colocarmos em prática tudo que nós aprendemos neste módulo."
         link="https://todolist.gustavosilv4.com.br"
         learning={[
-          'Conceitos básicos de React (Componentes, Props, useState, Imutabilidade)',
+          'Conceitos básicos de React (Componentes, Props, useState, Imutabilidade);',
           'CSS Modules;',
           'TypeScript.',
         ]}
@@ -18,14 +18,15 @@ export function Projects() {
       <Card
         img="https://imgur.com/9VL7aBW.png"
         title="Coffee-Delivery"
-        desc="Esse projeto consistiu em site para delivery de cafés, projeto proposto no segundo módulo do curso ignite da Rocketseat, para colocarmos em prática tudo que nós aprendemos neste módulo. "
+        desc="Esse projeto consistiu em site para delivery de uma cafeteria, projeto proposto no segundo módulo do curso ignite da Rocketseat, para colocarmos em prática tudo que nós aprendemos neste módulo. "
         link="https://coffee-delivery.gustavosilv4.com.br"
         learning={[
-          'Conceitos básicos de React (Componentes, Props, useState, Imutabilidade)',
-          'CSS Modules;',
-          'TypeScript.',
+          'Styled-Components;',
+          'React-Router;',
+          'React Hook Form;',
+          'Context API.',
         ]}
-        tech={['ReactJS;', 'CSS Modules;', 'TypeScript.']}
+        tech={['ReactJS;', 'Styled-Components;', 'TypeScript.']}
       />
     </div>
   )
